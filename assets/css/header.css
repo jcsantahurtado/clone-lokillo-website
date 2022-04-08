@@ -1,0 +1,43 @@
+.header {
+    align-items: center;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.logo {
+    width: 10rem;
+}
+
+
+.social-row {
+    display: flex;
+}
+
+
+.social-row__item {
+    list-style: none;
+}
+
+.social-row__item:last-child .social-row__link {
+    margin-right: 0;
+}
+
+.social-row__link {
+    color: #00f0fd;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.social-row__link.activo {
+    color: #333333;
+    font-weight: bold;
+}
+
+.social-row__link:hover {
+    text-decoration: underline;
+}
