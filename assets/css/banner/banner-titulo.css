@@ -1,0 +1,10 @@
+.banner__titulo {
+    color: #00f0fd;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    padding-bottom: .5rem;
+    text-transform: uppercase;
+}

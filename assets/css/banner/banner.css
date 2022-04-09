@@ -1,0 +1,6 @@
+.banner {
+    background: url(../../images/bg-lokillo.jpg) no-repeat center / cover;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+}
