@@ -1,0 +1,83 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .banner {
+        padding-right: calc(100% / 3);
+    }
+
+    .banner__perfil {
+        color: #ffffff;
+        display: initial;
+        font-family: "Raleway";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        padding-bottom: 1.5rem;
+    }
+
+    .galerias__card {
+        width: calc((100% / 3) - .75rem);
+    }
+
+    .galerias__card:nth-last-child(2n + 1) {
+        padding-right: 1rem;
+    }
+
+    .galerias__card:nth-child(3) {
+        padding-right: 0;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .menu__link {
+        display: initial;
+    }
+
+    .banner {
+        padding-right: calc(100% / 2.5);
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .logo {
+        width: 10rem;
+    }
+
+    .menu__link {
+        font-size: 16px;
+    }
+
+    .social-row {
+        display: flex;
+    }
+
+    .banner {
+        padding-right: calc(100% / 2);
+    }
+
+    .galerias__card {
+        width: calc((100% / 4) - 1rem);
+    }
+
+    .galerias__card:nth-child(3) {
+        padding-right: 1rem;
+    }
+
+    .galerias__card:last-child {
+        margin-right: 0;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+} 

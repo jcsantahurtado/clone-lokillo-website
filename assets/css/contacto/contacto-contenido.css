@@ -11,6 +11,12 @@
     font-style: normal;
 }
 
+.contacto__contacto>p {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: .5rem;
+}
+
 .contacto__contacto-telefono,
 .contacto__contacto-email {
     color: inherit;
