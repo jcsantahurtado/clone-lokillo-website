@@ -1,0 +1,10 @@
+.contacto__titulo {
+    color: #ffda00;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    padding-bottom: 2.5rem;
+    text-transform: uppercase;
+}

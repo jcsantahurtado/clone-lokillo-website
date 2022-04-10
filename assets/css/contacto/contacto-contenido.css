@@ -1,0 +1,25 @@
+.contacto__nombre {
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-style: normal;
+    padding-bottom: 1rem;
+}
+
+.contacto__direccion {
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+.contacto__contacto-telefono,
+.contacto__contacto-email {
+    color: inherit;
+    font-family: 'Raleway';
+    font-style: normal;
+    text-decoration: none;
+}
+
+.contacto__contacto-email {
+    text-decoration: underline;
+}
+
