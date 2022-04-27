@@ -16,12 +16,16 @@
 }
 
 .galerias__card {
-    padding: 0 1rem 1rem 0;
+    padding: 0 1rem 1.5rem 0;
     width: calc(50% - .5rem);
 }
 
 .galerias__card:nth-last-child(2n + 1) {
     padding-right: 0;
+}
+
+.galerias__card-image {
+    padding-bottom: .5rem;
 }
 
 .galerias__card>a>img {
@@ -30,14 +34,18 @@
 }
 
 .contenido__descripcion {
+    text-align: initial;
+    padding-left: .2rem;
+}
+
+.contenido__descripcion a {
     color: #00f0fd;
     font-family: "Raleway";
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 19px;
-    text-align: initial;
-    padding-left: .2rem;
+    text-decoration: none;
     text-transform: uppercase;
 }
 
