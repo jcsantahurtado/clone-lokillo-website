@@ -78,20 +78,20 @@
     </header>
 
     <main class="contenido">
-        <!-- <section class="banner">
+        <section class="banner">
             <h2 class="banner__titulo">Lokillo Florez</h2>
             <p class="banner__descripcion">Improvisador, humorista, imitador, trovador, comediante y libretista</p>
             <span class="banner__perfil">'Lokillo' es un improvisador en su máxima expresión. Su humor, su gran
                 capacidad para imitar y crear personajes y su destreza musical lo convierten en uno de los humoristas
                 más versátiles e importantes de Latinoámerica.</span>
             <a href="#" class="banner__boton">Leer más</a>
-        </section> -->
+        </section>
 
-        <!-- <section class="agenda">
+        <section class="agenda">
             <h2 class="agenda__titulo">Agenda</h2>
-        </section> -->
+        </section>
 
-        <!-- <section class="video">
+        <section class="video">
             <h2 class="video__titulo">Video del día</h2>
             <div class="video__contenido">
                 <iframe width="100%" height="315" src="https://www.youtube.com/embed/TjE5p5sQ3TI"
@@ -99,7 +99,7 @@
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
-        </section> -->
+        </section>
 
         <section class="galerias">
             <div class="galerias__items">
@@ -112,7 +112,7 @@
                 </div>
                 <div class="galerias__contenido">
                     <div class="galerias__card">
-                        <a href="#" class="galerias__card-image">
+                        <a id="myBtn" href="javascript:void(0)" class="galerias__card-image">
                             <img class="image__img" src="./assets/images/1.png" alt="logo">
                             <div class="image__overlay image__overlay--primary">
                                 <div class="image__plus--icon">+</div>
@@ -122,7 +122,7 @@
                         <h3 class="contenido__descripcion"><a href="#">Propósitos del 2022</a></h3>
                     </div>
                     <div class="galerias__card">
-                        <a href="#" class="galerias__card-image">
+                        <a id="myBtn" href="javascript:void(0)" class="galerias__card-image">
                             <img class="image__img" src="./assets/images/2.png" alt="logo">
                             <div class="image__overlay image__overlay--primary">
                                 <div class="image__plus--icon">+</div>
@@ -132,7 +132,7 @@
                         <h3 class="contenido__descripcion"><a href="#">Ando en las Nubes</a></h3>
                     </div>
                     <div class="galerias__card">
-                        <a href="#" class="galerias__card-image">
+                        <a id="myBtn" href="javascript:void(0)" class="galerias__card-image">
                             <img class="image__img" src="./assets/images/3.png" alt="logo">
                             <div class="image__overlay image__overlay--primary">
                                 <div class="image__plus--icon">+</div>
@@ -142,7 +142,7 @@
                         <h3 class="contenido__descripcion"><a href="#">No me crea nada</a></h3>
                     </div>
                     <div class="galerias__card">
-                        <a href="#" class="galerias__card-image">
+                        <a id="myBtn" href="javascript:void(0)" class="galerias__card-image">
                             <img class="image__img" src="./assets/images/4.png" alt="logo">
                             <div class="image__overlay image__overlay--primary">
                                 <div class="image__plus--icon">+</div>
@@ -151,7 +151,16 @@
                         </a>
                         <h3 class="contenido__descripcion"><a href="#">Un saludo para mis amigos los músicos</a></h3>
                     </div>
-                    
+
+                </div>
+                <div class="galerias__modal" id="myModal">
+                    <div class="galerias__modal-content">
+                        <span class="close">&times;</span>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/W_w6Mf7zz04"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
 
                 <a href="#" class="galerias__boton">Todas las galerias</a>
