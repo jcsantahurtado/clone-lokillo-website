@@ -30,7 +30,7 @@
 }
 
 .image__overlay--primary {
-    background: none;
+    *background: none;
 }
 
 .image__overlay>* {

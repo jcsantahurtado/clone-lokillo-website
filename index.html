@@ -12,37 +12,30 @@
         rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/components/boton.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/menu/menu-lista.css">
     <link rel="stylesheet" href="./assets/css/menu/menu-item.css">
     <link rel="stylesheet" href="./assets/css/menu/menu-link.css">
-
     <link rel="stylesheet" href="./assets/css/banner/banner.css">
     <link rel="stylesheet" href="./assets/css/banner/banner-titulo.css">
     <link rel="stylesheet" href="./assets/css/banner/banner-decripcion.css">
     <link rel="stylesheet" href="./assets/css/banner/banner-perfil.css">
     <link rel="stylesheet" href="./assets/css/banner/banner-boton.css">
-
     <link rel="stylesheet" href="./assets/css/agenda/agenda.css">
     <link rel="stylesheet" href="./assets/css/agenda/agenda-titulo.css">
-
     <link rel="stylesheet" href="./assets/css/video/video.css">
     <link rel="stylesheet" href="./assets/css/video/video-titulo.css">
-
     <link rel="stylesheet" href="./assets/css/galerias/galerias.css">
     <link rel="stylesheet" href="./assets/css/galerias/galerias-info.css">
     <link rel="stylesheet" href="./assets/css/galerias/galerias-contenido.css">
-
+    <link rel="stylesheet" href="./assets/css/galerias/galerias-descargar.css">
     <link rel="stylesheet" href="./assets/css/modal/modal-galerias.css">
-
     <link rel="stylesheet" href="./assets/css/contacto/contacto.css">
     <link rel="stylesheet" href="./assets/css/contacto/contacto-titulo.css">
     <link rel="stylesheet" href="./assets/css/contacto/contacto-contenido.css">
-
     <link rel="stylesheet" href="./assets/css/footer.css">
-
     <link rel="stylesheet" href="./assets/css/responsive.css">
-
     <link rel="stylesheet" href="./assets/css/galerias/image-hover.css">
 </head>
 
@@ -84,7 +77,7 @@
             <span class="banner__perfil">'Lokillo' es un improvisador en su máxima expresión. Su humor, su gran
                 capacidad para imitar y crear personajes y su destreza musical lo convierten en uno de los humoristas
                 más versátiles e importantes de Latinoámerica.</span>
-            <a href="#" class="banner__boton">Leer más</a>
+            <a href="#" class="banner__boton boton">Leer más</a>
         </section>
 
         <section class="agenda">
@@ -105,9 +98,9 @@
             <div class="galerias__items">
                 <div class="galerias__info">
                     <h2 class="galerias__titulo">Galerias</h2>
-                    <div class="botones">
-                        <a href="#" class="galerias__boton">Vídeos</a>
-                        <a href="#" class="galerias__boton galerias__boton-fotos">Fotos</a>
+                    <div class="galerias__botones">
+                        <a href="#" class="galerias__boton boton">Vídeos</a>
+                        <a href="#" class="galerias__boton boton galerias__boton-fotos">Fotos</a>
                     </div>
                 </div>
                 <div class="galerias__contenido">
@@ -156,14 +149,18 @@
                 <div class="galerias__modal" id="myModal">
                     <div class="galerias__modal-content">
                         <span class="close">&times;</span>
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/W_w6Mf7zz04"
-                            title="YouTube video player" frameborder="0"
+                        <iframe width="100%" height="315" src="" title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
                 </div>
 
-                <a href="#" class="galerias__boton">Todas las galerias</a>
+                <div class="galerias__descargar">
+                    <a href="#" class="">Descargar vídeos de Instagram</a>
+                    <a href="#" class="">Descargar historias de Instagram</a>
+                </div>
+
+                <a href="#" class="galerias__boton boton">Todas las galerias</a>
             </div>
 
         </section>
