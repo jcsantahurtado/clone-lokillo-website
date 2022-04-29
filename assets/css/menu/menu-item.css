@@ -1,8 +1,14 @@
 .menu__item {
-    list-style: none;
-    padding: 0 .25rem;
+    color: #000000;
+    display: none;
+    position: relative;
+    float: left;
+    background: #ffda00;
+    /* menu background color */
+    border-radius: 50px;
 }
 
-.menu__item:last-child .menu__link {
-    margin-right: 0;
+.menu__item:last-child {
+    display: block;
+    margin-right: 1rem;
 }

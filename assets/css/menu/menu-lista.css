@@ -1,3 +1,19 @@
 .menu__lista {
-    display: flex;
+    list-style: none inside;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu__lista ul {
+    position: absolute;
+    padding: 0;
+    left: 0;
+    display: none;
+    /* hides sublists */
+}
+
+/* hides sub-sublists */
+.menu__lista li:hover ul {
+    display: block;
 }

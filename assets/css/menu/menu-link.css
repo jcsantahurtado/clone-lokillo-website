@@ -1,25 +1,21 @@
 .menu__link {
-    color: #ffffff;
-    font-size: 14px;
-    padding: 0.75rem 1rem;
+    display: block;
+    padding: 0 1rem;
     text-decoration: none;
+    width: auto;
+    /* this is the width of the menu items */
+    line-height: 35px;
+    /* this is the hieght of the menu items */
+    color: inherit;
+    /* list item font color */
     text-transform: uppercase;
-    display: none;
 }
 
-.menu__link-cotizar {
-    display: initial;
+.menu__item li {
+    width: 100%;
 }
 
-.menu__link.activo {
-    background: yellow;
-    border-radius: 50px;
-    color: #000000;
-    font-weight: bold;
-}
-
-.menu__link:hover {
-    background: yellow;
-    color: black;
-    border-radius: 50px;
+.menu__item li a {
+    font-size: 80%;
+    text-align: left;
 }

@@ -1,8 +1,5 @@
-
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    
-}
+@media only screen and (max-width: 600px) {}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -32,13 +29,34 @@
     .galerias__card:nth-child(3) {
         padding-right: 0;
     }
-    
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .menu__link {
-        display: initial;
+
+    .logo {
+        width: 9rem;
+    }
+
+    .menu>.menu__lista>.menu__item:first-child {
+        background-color: #ffda00;
+    }
+
+    .menu>.menu__lista>.menu__item:first-child .menu__link {
+        color: #000000;
+        font-weight: bold;
+    }
+
+    .menu__item {
+        color: #ffffff;
+        display: block;
+        background: #000000;
+    }
+
+    .menu__item:hover {
+        background: #ffda00;
+        color: #000000;
     }
 
     .banner {
@@ -48,6 +66,11 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
+    .header {
+        padding: 0 1rem;
+    }
+
     .logo {
         width: 10rem;
     }
@@ -58,6 +81,10 @@
 
     .social-row {
         display: flex;
+    }
+
+    .social-row__item:last-child {
+        margin-right: 1.5rem;
     }
 
     .banner {
@@ -78,6 +105,4 @@
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    
-} 
+@media only screen and (min-width: 1200px) {}
